@@ -1,0 +1,38 @@
+{"intents":[
+    {"tag":"greeting",
+    "patterns": ["Hi", "How are you", "whats up", "hello", "Any one there", "Good day", "hey", "Yo"],
+    "responses": ["Hello", "How can I help you", "Good to see you"],
+    "context_set": ""
+    },
+    {"tag": "goodbye",
+    "patterns":["See you", "Goodbye", "I am leaving ", "Ok bye", "Have a Good day", "See you later"],
+    "responses":["Ok bye, it was good to talk with you", "Byee", "Take care, byee"],
+    "context_set":""
+    },
+    {"tag": "age",
+    "patterns":["How old are you", "Whats your age", "age?"],
+    "responses":["I am a bot, created by Dipesh. I am not sure about my age!"],
+    "context_set":""
+    },
+    {"tag":"name",
+    "patterns":["What's your name?", "Who are you?", "Your identity", "What should i call you", "Do you have any name?"],
+    "responses":["I am Crypto, designed by Dipesh. I am an AI chatbot, here to help you", "Myself Crypto, an AI chatbot craeted by Dipesh. I am here to help you."],
+    "context_set":""
+    },
+    {"tag":"health",
+    "patterns":["I am not good", "I am not feeling well", "I am sick", "I have some problems"],
+    "responses":["What happend to you...Do you have covid sympotmps or something else.", "Do you have any covid sympotmps or are you suffering from anything else?"],
+    "context_set":""
+    },
+    {"tag":"hours",
+    "patterns":["What are your hours", "When will you be available again?"],
+    "responses":["I am up all time", "I will available whenever you need me."],
+    "context_set":""
+    },
+    {"tag":"help",
+    "patterns":["can you help me", "will you help me", "i need help", "help"],
+    "responses":["yeah sure i can help you with any health related issues", "yeah sure, are you ill", "yeah sure, you can tell your problems", "I would be very happy to help you"],
+    "context_set":""
+    }
+ ]
+}
